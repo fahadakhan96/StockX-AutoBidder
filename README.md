@@ -18,7 +18,7 @@ This is an auto-bidder that I built using Python &amp; Selenium for the website 
 7.	If you want to restrict the bot to bid on a fixed number of products, check the `Restrict` checkbox and enter the number in the textbox below it. Otherwise, the bot will bid on all products available.
 8.	Click the `Start` button to start the bot.
 9.	In order to manually close the program and quit the bot, click on the `Close` button on the top-right only once. It will finish all pending processes, properly cleanup any locked resources and then quit itself.
-10.	The bot keeps a record of the items it has bid on in the file `stockx_bids.csv`. This file can be opened with MS Excel. Please don’t delete or modify this file. This file is important for the program to function correctly.
+10.	The bot keeps a record of the items it has bid on in the file `stockx_bids.csv`. This file can be opened with MS Excel. Please don’t delete or modify this file. This file is important for the program to function correctly. The program will automatically create this file if it is not present.
 11.	The program also requires `chromedriver.exe` to be in the same folder as the `main.py` and the `stockx_bids.csv`. This file is also important for the program to function correctly. Please don’t delete this file or try to open it manually.
   
 ## Making it work with Firefox
