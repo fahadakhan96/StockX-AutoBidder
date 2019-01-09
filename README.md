@@ -22,6 +22,6 @@ This is an auto-bidder that I built using Python &amp; Selenium for the website 
 11.	The program also requires `chromedriver.exe` to be in the same folder as the `main.py` and the `stockx_bids.csv`. This file is also important for the program to function correctly. Please don’t delete this file or try to open it manually.
   
 ## Making it work with Firefox
-1. The Selenium webdriver needs to be changed from `Chrome` to `Firefox`.
+1. The Selenium webdriver in `StockX.py` needs to be changed from `Chrome` to `Firefox`.
 2. You'll need to include the `geckodriver.exe` file in the same directory as `main.py` and other files.
-3. The GUI can give an option to open with either _Firefox_ or _Chrome_. PRs are welcome.
+3. The GUI can give an option to open with either _Firefox_ or _Chrome_ (or other browsers). PRs are welcome.
