@@ -1,6 +1,8 @@
 # StockX-AutoBidder
 This is an auto-bidder that I built using Python &amp; Selenium for the website [StockX](https://stockx.com).
 
+**UPDATE:** This doesn't work anymore. The website UI has changed lot since I built this.
+
 ## Usage instructions
 1.	Enter your StockX account email address. Make sure it’s correct.
 2.	Enter your StockX account password. Make sure it’s correct.
